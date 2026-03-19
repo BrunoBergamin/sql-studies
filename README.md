@@ -1,79 +1,94 @@
-# SQL para Iniciantes
+# sql-studies
 
-Repositorio de estudos com exemplos simples de SQL, organizado como material de aluno para praticar do zero e depois publicar no GitHub.
+Repositorio de estudos de SQL organizado para aprendizado continuo e publicacao no GitHub.
+
+Este projeto agora reune:
+
+- estudos praticos com arquivos `.sql`
+- material do curso em `.pdf` e `.docx`
+- exercicios de modelagem em `.drawio`
 
 ## Objetivo
 
-Este material foi montado para estudar os primeiros passos em SQL:
-
-- criar banco e tabela
-- inserir dados
-- fazer consultas simples
-- aplicar filtros e ordenacao
-- praticar com exercicios basicos
+Manter um repositorio unico para estudar SQL do zero ate assuntos mais estruturados, com uma organizacao simples de navegar e facil de atualizar com `commit` e `push`.
 
 ## Estrutura
 
 ```text
-Sql Expert/
-|-- 01-fundamentos/
-|   |-- 01-criando-banco-e-tabela.sql
-|   `-- 02-insert-basico.sql
-|-- 02-consultas/
-|   |-- 01-select-basico.sql
-|   `-- 02-where-order-by.sql
-|-- 03-pratica/
-|   `-- 01-desafio-aluno.sql
-|-- 04-anotacoes/
-|   `-- glossario.md
+sql-studies/
+|-- 01-estudos-praticos/
+|   |-- 01-fundamentos/
+|   |-- 02-consultas/
+|   |-- 03-pratica/
+|   `-- 04-anotacoes/
+|-- 02-material-do-curso/
+|   |-- 01-guia-do-curso/
+|   |-- 02-introducao/
+|   |-- 03-modelagem-de-dados/
+|   |-- 04-modelo-conceitual/
+|   |-- 05-modelo-relacional/
+|   |-- 06-normalizacao/
+|   |-- 07-sql-ddl-dml/
+|   `-- 08-consultas-sql/
+|-- 03-exercicios-drawio/
+|   `-- backups/
 `-- README.md
 ```
 
-## Ordem sugerida de estudo
+## Como usar
 
-1. `01-fundamentos/01-criando-banco-e-tabela.sql`
-2. `01-fundamentos/02-insert-basico.sql`
-3. `02-consultas/01-select-basico.sql`
-4. `02-consultas/02-where-order-by.sql`
-5. `03-pratica/01-desafio-aluno.sql`
+### 1. Estudos praticos
 
-## Como estudar
+Nesta area ficam os arquivos SQL mais simples para praticar:
 
-- leia os comentarios de cada arquivo
-- execute os comandos aos poucos
-- tente entender o resultado de cada consulta
-- depois refaca sem olhar
-- por fim, resolva o desafio sozinho
+- criacao de banco e tabela
+- insercao de dados
+- consultas com `SELECT`
+- filtros com `WHERE`
+- ordenacao com `ORDER BY`
+- desafios iniciais
 
-## Banco usado nos exemplos
+Ordem sugerida:
 
-Os exemplos usam uma tabela simples chamada `alunos`, ideal para treinar o comeco:
+1. `01-estudos-praticos/01-fundamentos/01-criando-banco-e-tabela.sql`
+2. `01-estudos-praticos/01-fundamentos/02-insert-basico.sql`
+3. `01-estudos-praticos/02-consultas/01-select-basico.sql`
+4. `01-estudos-praticos/02-consultas/02-where-order-by.sql`
+5. `01-estudos-praticos/03-pratica/01-desafio-aluno.sql`
 
-- `id`
-- `nome`
-- `idade`
-- `cidade`
-- `nota`
+### 2. Material do curso
 
-## Dicas
+Os materiais foram separados por assunto para facilitar revisao:
 
-- SQL pode mudar um pouco dependendo do banco usado
-- estes exemplos funcionam como base conceitual para MySQL, PostgreSQL e SQL Server
-- se estiver usando um banco especifico, depois podemos adaptar a sintaxe
+- guia inicial do curso
+- introducao e modelagem de dados
+- modelo conceitual
+- modelo relacional
+- normalizacao
+- SQL DDL e DML
+- consultas SQL
 
-## Publicacao no GitHub
+### 3. Exercicios de modelagem
 
-Este repositorio foi organizado para servir como caderno de estudos.
-Cada pasta representa uma etapa do aprendizado, facilitando revisao, pratica e evolucao do conteudo com o tempo.
+A pasta `03-exercicios-drawio` guarda os arquivos de exercicio visual.
+Os backups antigos foram mantidos em `03-exercicios-drawio/backups`.
 
-## Proximos assuntos para continuar depois
+## Tecnologias e formatos
 
-- `UPDATE`
-- `DELETE`
+- `.sql` para pratica
+- `.pdf` e `.docx` para teoria e exercicios do curso
+- `.drawio` para modelagem
+
+## Proximos passos
+
+Com o tempo, este repositorio pode crescer com:
+
+- `UPDATE` e `DELETE`
 - `GROUP BY`
 - `JOIN`
-- funcoes de agregacao como `COUNT`, `AVG`, `SUM`
+- funcoes de agregacao
+- banco de dados mais completos para pratica
 
-## Autor
+## GitHub
 
-Material organizado para estudo pessoal e pratica no GitHub.
+Este projeto foi preparado para usar o repositorio `sql-studies` como destino principal de versionamento.
