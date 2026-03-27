@@ -1,94 +1,90 @@
-# sql-studies
+# SQL Studies
 
-Repositorio de estudos de SQL organizado para aprendizado continuo e publicacao no GitHub.
+Repositorio de estudos em SQL organizado para aprendizado progressivo, reunindo exercicios praticos, materiais do curso e arquivos de modelagem.
 
-Este projeto agora reune:
+## Visao geral
 
-- estudos praticos com arquivos `.sql`
-- material do curso em `.pdf` e `.docx`
-- exercicios de modelagem em `.drawio`
+Este projeto centraliza meu aprendizado em SQL e modelagem de dados, saindo dos fundamentos ate temas como:
 
-## Objetivo
+- criacao de tabelas
+- insercao de dados
+- consultas com filtros
+- modelagem conceitual e relacional
+- normalizacao
+- desafios praticos
 
-Manter um repositorio unico para estudar SQL do zero ate assuntos mais estruturados, com uma organizacao simples de navegar e facil de atualizar com `commit` e `push`.
-
-## Estrutura
+## Estrutura do repositorio
 
 ```text
 sql-studies/
 |-- 01-estudos-praticos/
-|   |-- 01-fundamentos/
-|   |-- 02-consultas/
-|   |-- 03-pratica/
-|   `-- 04-anotacoes/
 |-- 02-material-do-curso/
-|   |-- 01-guia-do-curso/
-|   |-- 02-introducao/
-|   |-- 03-modelagem-de-dados/
-|   |-- 04-modelo-conceitual/
-|   |-- 05-modelo-relacional/
-|   |-- 06-normalizacao/
-|   |-- 07-sql-ddl-dml/
-|   `-- 08-consultas-sql/
 |-- 03-exercicios-drawio/
-|   `-- backups/
 `-- README.md
 ```
 
-## Como usar
+## O que existe em cada pasta
 
-### 1. Estudos praticos
+### `01-estudos-praticos`
 
-Nesta area ficam os arquivos SQL mais simples para praticar:
+Arquivos `.sql` para praticar comandos e consultas de forma objetiva.
+
+Exemplos:
 
 - criacao de banco e tabela
-- insercao de dados
-- consultas com `SELECT`
-- filtros com `WHERE`
-- ordenacao com `ORDER BY`
-- desafios iniciais
+- inserts basicos
+- `SELECT`
+- `WHERE`
+- `ORDER BY`
+- desafios simples
 
-Ordem sugerida:
+### `02-material-do-curso`
 
-1. `01-estudos-praticos/01-fundamentos/01-criando-banco-e-tabela.sql`
-2. `01-estudos-praticos/01-fundamentos/02-insert-basico.sql`
-3. `01-estudos-praticos/02-consultas/01-select-basico.sql`
-4. `01-estudos-praticos/02-consultas/02-where-order-by.sql`
-5. `01-estudos-praticos/03-pratica/01-desafio-aluno.sql`
+Material de apoio do curso em arquivos `.pdf` e `.docx`, organizado por assunto.
 
-### 2. Material do curso
+Temas encontrados:
 
-Os materiais foram separados por assunto para facilitar revisao:
-
-- guia inicial do curso
-- introducao e modelagem de dados
+- introducao
+- modelagem de dados
 - modelo conceitual
 - modelo relacional
 - normalizacao
 - SQL DDL e DML
 - consultas SQL
 
-### 3. Exercicios de modelagem
+### `03-exercicios-drawio`
 
-A pasta `03-exercicios-drawio` guarda os arquivos de exercicio visual.
-Os backups antigos foram mantidos em `03-exercicios-drawio/backups`.
+Arquivos `.drawio` usados para praticar modelagem visual e diagramas.
+
+## Como estudar por este repositorio
+
+Uma sequencia recomendada e:
+
+1. fundamentos em `01-estudos-praticos/01-fundamentos`
+2. consultas em `01-estudos-praticos/02-consultas`
+3. desafios em `01-estudos-praticos/03-pratica`
+4. revisao teorica em `02-material-do-curso`
+5. modelagem visual em `03-exercicios-drawio`
 
 ## Tecnologias e formatos
 
-- `.sql` para pratica
-- `.pdf` e `.docx` para teoria e exercicios do curso
-- `.drawio` para modelagem
+- SQL
+- arquivos `.sql`
+- arquivos `.pdf`
+- arquivos `.docx`
+- diagramas `.drawio`
 
-## Proximos passos
+## Objetivo do repositorio
 
-Com o tempo, este repositorio pode crescer com:
+Construir uma base solida em banco de dados e SQL, com organizacao suficiente para revisao, consulta rapida e ampliacao futura.
 
-- `UPDATE` e `DELETE`
-- `GROUP BY`
-- `JOIN`
-- funcoes de agregacao
-- banco de dados mais completos para pratica
+## Melhorias futuras
 
-## GitHub
+- adicionar banco de exemplo para executar os scripts
+- incluir exercicios com nivel iniciante, intermediario e avancado
+- criar exemplos com `JOIN`, `GROUP BY` e funcoes agregadas
+- adicionar screenshots dos diagramas principais
 
-Este projeto foi preparado para usar o repositorio `sql-studies` como destino principal de versionamento.
+## Autor
+
+Repositorio mantido por Bruno Bergamin como parte da trilha de estudos em SQL e modelagem de dados.
