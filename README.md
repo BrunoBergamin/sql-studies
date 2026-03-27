@@ -1,5 +1,7 @@
 # SQL Studies
 
+Status: repositorio de estudo.
+
 Repositorio de estudos em SQL organizado para aprendizado progressivo, reunindo exercicios praticos, materiais do curso e arquivos de modelagem.
 
 ## Visao geral
